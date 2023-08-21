@@ -23,6 +23,7 @@ int r=5;
 //This global declaration
 
 void area();
+//Function declaration
 
 class FirstClass{
     public:
@@ -33,14 +34,18 @@ class FirstClass{
         //std is the namespace.
     };
 
-};//class is ended with a semicolon ;
+};//class defination/declaration
+//class is ended with a semicolon ;
 int main()//main function
 {
     class FirstClass c;
     // hello();
 area();
+    //function calling
 return 0;
 }
+
+//function defination
 void area()
 {
     float ar;
