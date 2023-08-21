@@ -32,14 +32,14 @@ class FirstClass{
     {
         std::cout << "Hello world!" << std::endl;
         //std is the namespace.
-    };
+    }helloo;
 
 };//class defination/declaration
 //class is ended with a semicolon ;
 int main()//main function
 {
     class FirstClass c;
-    // hello();
+    helloo.hello();
 area();
     //function calling
 return 0;
