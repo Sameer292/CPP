@@ -34,12 +34,12 @@
 using namespace std;
 int main()
 {
-    int i=10; //int is used to store integers values.. 1,100,20,88 etc.. It occupies 4 bytes
+    int i=10; //int is used to store integers values.. 1,100,20,88 etc.. It occupies 4 bytes (may vary according to compiler)
     float f=10.10; //float is used to store floating point values. These are integers and decimale. 10,22.2,99.002 etc
     char c='s'; //char is used to store character values. a , b ,%,^,& etc..
     signed int si=-1000; //signed int can store negative values also
     unsigned int ui=35000; // only positive values are stored
-    long int li=1000000;
+    long int li=1000000; //generally takes 4 bytes
     long long lli=2000000000000; //takes 8 bytes memory
     bool b=true; //bool data type can only hold true or false value. It takes 0 as false and 1 as true
     const wchar_t w=L'ゑ';
