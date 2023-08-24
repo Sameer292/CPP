@@ -5,7 +5,7 @@ class sameer{
     public:
     char name[20]; 
     int age;
-    unsigned long long int phone;
+    unsigned long long int phone; //this takes a large amount of memory (8 bytes) but can store very large value
     void data()
     {
         cout<<"\n\nName: "<<name<<"\nAge: "<<age<<"\nContact: "<<phone<<endl;
