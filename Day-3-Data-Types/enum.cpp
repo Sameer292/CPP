@@ -9,7 +9,7 @@ enum person{
     aryan,
     bishal,
     ashish,
-    empty
+    none
 };
 int main()
 {
@@ -26,7 +26,7 @@ int main()
     else if(choose=="ashish")
     manchhe=ashish;
     else
-    manchhe=empty;
+    manchhe=none;
 
     switch(manchhe)
     {
