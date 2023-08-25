@@ -25,7 +25,7 @@ return 0;
 > In this program every statement is run sequentially one after another.
 
 ### 2.Selection control structure
-> This works according to the choice of the user. It gives a choice to select and according to the selection it executes the program.
+> This works according to the choice of the user. According to the selection it executes the program.
 
 > Conditions are put in these statements and the contitions are to be evaluated as either true or false i.e in boolean values.
 
