@@ -2,7 +2,7 @@
 ###  #There are four types of control structure in c++
 - Sequential control structure
 - Selection control structure
-- Iteration
+- Iteration (Loops)
 - Jumping statements
 
 ### 1.Sequential control structure
