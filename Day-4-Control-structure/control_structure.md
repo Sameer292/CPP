@@ -46,7 +46,7 @@ return 0;
 - while()
 - do.....while()
 
-### 4.Jumping Staements
+### 4.Jumping statements
 > These are the unconditional branching statements. While the above statements require a condition to loop or to go to next statement. These are unconditional.
 
 > **⚡There are 4 types of jumping statements**
