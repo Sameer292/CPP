@@ -44,7 +44,7 @@ return 0;
 > **⚡There are 3 types of loops**
 - for()
 - while()
-- do.......while()
+- do......while()
 
 ### 4.Jumping Staements
 > These are the unconditional branching statements. While the above statements require a condition to loop or to go to next statement. These are unconditional.
