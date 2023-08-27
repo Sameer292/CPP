@@ -22,7 +22,7 @@ int main()
 
 ```
 
-> void pointers cannot be used to change the value of the original variable. SInce void literally means nothing the compiler wouldn't know what type of data is to be changed.
+> void pointers cannot be used to change the value of the original variable. Since, void literally means nothing the compiler wouldn't know what type of data is to be changed.
 
 > example:
 
