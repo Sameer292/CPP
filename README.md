@@ -1,1 +1,1 @@
-# 60 days C++ challange
+# C++
