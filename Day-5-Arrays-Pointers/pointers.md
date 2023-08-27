@@ -15,7 +15,7 @@ int main()
     int *ptr= &var; //Here we are assigning the memory address of 'var' to the integer pointer 'ptr'
     cout<<"var: "<<var<<endl; //This prints the value of var as regular
     cout<<"*ptr: "<<*ptr<<endl; //This prints the value of var as well. Because ptr is holding the memory adderess of var and using * we can access the value
-    cout<<"ptr: "<<ptr<<endl; //This now prints the Hex integer value of the memory locatio of var. SInce no * is used it prints the actual memory location of var.
+    cout<<"ptr: "<<ptr<<endl; //This now prints the Hex integer value of the memory location of var. SInce no * is used it prints the actual memory location of var.
 
     return 0;
 }
