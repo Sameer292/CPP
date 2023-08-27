@@ -1,6 +1,6 @@
 # ⚡Pointers
 
-> ppinters are the variables that hold the address of an another variable.
+> Pointers are the variables that hold the address of an another variable.
 
 > They can be of different types i.e int pointer, float pointer, double pointer, Void pointer etc.
 
