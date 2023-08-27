@@ -15,7 +15,7 @@ int main()
     int *ptr= &var; //Here we are assigning the memory address of 'var' to the integer pointer 'ptr'
     cout<<"var: "<<var<<endl; //This prints the value of var as regular
     cout<<"*ptr: "<<*ptr<<endl; //This prints the value of var as well. Because ptr is holding the memory adderess of var and using * we can access the value
-    cout<<"ptr: "<<ptr<<endl; //This now prints the Hex integer value of the memory location of var. SInce no * is used it prints the actual memory location of var.
+    cout<<"ptr: "<<ptr<<endl; //This now prints the Hex integer value of the memory location of var. Since no * is used it prints the actual memory location of var.
 
     return 0;
 }
@@ -31,7 +31,7 @@ int var=8;
 void* ptr= &var;
 *ptr =20;
 ```
-> This wouldn't work because we have used void pointer to point to an integer variable. SInce the pointer has no idea of the data type it cannot change it.
+> This wouldn't work because we have used void pointer to point to an integer variable. Since, the pointer has no idea of the data type, it cannot change it.
 
 > this would work instead:
 
