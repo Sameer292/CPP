@@ -37,7 +37,7 @@ ptr= &foo;
 
 
 # ⚡References
-> They take the variable and assign tmemselves to the values stored in the variable.
+> They take the variable and assign themselves to the values stored in the variable.
 > It's like giving multiple names to a variable.
 
 > **Example:**
