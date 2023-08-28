@@ -20,6 +20,7 @@ ptr= & var;
 ```
 > Now that the pointer is pointing at the address of "var", the pointer variable "ptr" now holds the address of "var".
 > We can also replace the address that the pointer variable is holding.
+> We can assign different variable to the same pointer and it'll point to the new variable's address.
 
 ```c++
 int* ptr;
