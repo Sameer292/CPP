@@ -18,7 +18,7 @@ int var=7;
 int foo=21;
 ptr= & var;
 ```
-> Now that the pointer is pointing at address of "var", the pointer variable "ptr" now holds the address of "var".
+> Now that the pointer is pointing at the address of "var", the pointer variable "ptr" now holds the address of "var".
 > We can also replace the address that the pointer variable is holding.
 
 ```c++
