@@ -1,5 +1,5 @@
 # ⚡Pointers
-> They store the actual address of the variable
+> They store the actual address of the variable.
 
 > Let's take an example
 ```c++
