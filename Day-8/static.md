@@ -59,7 +59,7 @@ void indata(){
         id++;
     }
 ```
-> In this part we take the name and the roll number and increase the id by 1. Since, the id is static it's updated for all the objects now.
+> In this part taking the name and the roll number and increase the id by 1. Since, the id is static it's updated for all the objects now.
 
 > We then print it right after it using this function:
 ```c++
