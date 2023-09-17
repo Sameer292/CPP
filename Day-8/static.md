@@ -1,5 +1,5 @@
 # ⚡Static data member
-> The 'static' keyword in c++ has different meanings based on the context it's used. static is used either outside the class / struct or inside the class / struct.
+> Static in c++ has different meanings based on the context it's used. static is used either outside the class / struct or inside the class / struct.
 
 > whereas, static declared inside a class means it's going to share memory with all of the instances of the class / struct.
 > Basically when we declare a static variable inside a class and we make multiple instances ( objects) of the same class then all of those instances (objects) will share the same static variable.
