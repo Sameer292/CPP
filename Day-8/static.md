@@ -121,7 +121,7 @@ int main()
     student s1,s2,s3;
     s1.take();
     s1.show();
-student::getid();   //Running without any object reference.  Can also use object, s1.getid(); is also valid.
+student::getid();   //Running without any object reference. Since static variables and methods are not related to any one specific object there's no point in using them with an enitity. But still we can though, use static method with an object reference.
     s2.take();
     s2.show();
 student::getid();
