@@ -11,7 +11,7 @@ class student{
     private:
     int roll;
     char name[100];
-    static int id;  //variable defination
+    static int id;  //Variable defination
 
     
     public: 
