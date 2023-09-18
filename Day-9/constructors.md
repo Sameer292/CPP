@@ -23,7 +23,7 @@ int main()
 > When the write method is called it prints the values of x and y. But since they are not initialized with any value.. Random value is printed.
 
 > Using constructors we can initialise the variables with required values.. We don't need to initialise for each object separately.
-### ⚡The constructor should have the same name as the class.
+### ⚡The constructor should be of the same name as the class.
 
 
 ```c++
