@@ -91,3 +91,6 @@ int main()
 > Since player is a sub-class of entity the obj a1 also has properties of entity class. i.e it can access the float variables, the move method and the showPost method as well.
 
 > So we did use the a1 obj and used inheritance property to use move hello and showPost function that is in entity class.
+
+### Now we can use the player whereever we can use the entity because player contains every property of the entity and more.
+> Having more is not necessary though... They both can have exactly the same properties as well.
