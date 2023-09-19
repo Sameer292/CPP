@@ -7,7 +7,7 @@
 
 > constructors are used to initialise any variables during the creation of an object. destructors are used to uninitialise those variables when the objects are destroyed.
 
-> They help to clean up the used memory.
+> This helps to clean up the used memory.
 
 > Example:
 ```c++
