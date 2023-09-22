@@ -94,3 +94,143 @@ int main()
 
 ### Now we can use the player whereever we can use the entity because player contains every property of the entity and more.
 > Having more is not necessary though... They both can have exactly the same properties as well.
+
+## There are different types of inheritance:
+- Single inheritance
+- Multiple inheritance
+- Hierarchial inheritance
+- Multilevel inheritance
+- Hybrid Inheritance
+
+# ⚡Single inheritance
+> A derived class with only one base class is called single inheritance.
+
+> Example:
+```c++
+class person{
+    string name;
+    int age;
+    string address;
+}
+class student : public person
+{
+    int roll;
+    int _class;
+}
+```
+> This is single inheritance because student class is derived from person class only i.e. only one base class.
+
+# ⚡Multiple inheritance
+
+> A derived class with more than one base class is called multiple inheritance.
+
+> Example:
+```c++
+class person
+{
+    string name;
+    int age;
+}
+class place 
+{
+    string country;
+    string districe
+    int ward_no;
+}
+class student : public person , public place;
+{
+    int _class;
+    int roll_no;
+    char section;
+}
+```
+> The student class has more than one base classes i.e. person and student.
+> When a class has more than one base classes it is called multiple inheritance.
+
+# ⚡Hierarchial inheritance
+
+> A base class having more than one class derived from it is called hierarchial inheritance.
+
+> Example:
+
+```c++
+class person
+{
+    string name;
+    int age;
+}
+class student : public person 
+{
+    int roll;
+    int _class;
+}
+class teacher : public person
+{
+    string subject;
+    double salary;
+}
+```
+
+> This is hierarchical inheritance because person is a base class and student and teacher class are derived from it.
+> Since it has more than one derived class it's called hierarchial inheritance.
+
+# ⚡Multilevel inheritance
+
+> When a class is herived from already a derived class then it is called multilevel inheritance.
+
+> Example:
+```c++
+
+class address{
+    string country;
+    string state;
+    string district;
+    int ward_no;
+}
+class person : public address
+{
+    string name;
+    int age;
+}
+class student : public person
+{
+    int _class;
+    int roll;
+    string section;
+}
+```
+
+> Here, the class student is derived from class person which already is derived from the class address.
+
+> This is called multi-level inheritance becaus there are levels of base and derived classes in this type of inheritance.
+
+
+# ⚡Hybrid Inheritance
+
+> This is the mixture of multiple and multilevel inheritance
+
+> Example:
+
+```c++
+class animal{
+
+}
+class mammal : public animal
+{
+
+}
+class cow : public mammal
+{
+
+}
+class birds : public animal
+{
+
+}
+class hen : public animal , public birds
+{
+
+}
+```
+
+> This is hybrid inheritance
