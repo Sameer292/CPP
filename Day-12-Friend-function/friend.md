@@ -44,3 +44,4 @@ int main()
 > It's like giving permission to use the private data.
 
 - It must be declared before hand in the class.
+- Not in the scope of class
