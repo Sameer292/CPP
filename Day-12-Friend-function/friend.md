@@ -48,4 +48,5 @@ int main()
 - can be declared privately or publicly
 - cannot be called from the object of the class
 - usually comtains objects as arguments
+- cannot access the members directly using their name.... obj.member_name
 - 
