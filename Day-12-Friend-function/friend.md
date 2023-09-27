@@ -47,3 +47,5 @@ int main()
 - Not in the scope of class
 - can be declared privately or publicly
 - cannot be called from the object of the class
+- usually comtains objects as arguments
+- 
