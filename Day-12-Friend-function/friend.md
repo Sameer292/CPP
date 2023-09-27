@@ -45,3 +45,4 @@ int main()
 
 - It must be declared before hand in the class.
 - Not in the scope of class
+- can be declared privately or publicly
